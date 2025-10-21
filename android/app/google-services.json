@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "702052148580",
+    "project_id": "daily-devotion-7b3b4",
+    "storage_bucket": "daily-devotion-7b3b4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702052148580:android:096b461c4bc30448540671",
+        "android_client_info": {
+          "package_name": "com.dailydevotion.dailydevotion"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD48AbhwE7zashlXBLew3WSB1A7oY7dsWs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
