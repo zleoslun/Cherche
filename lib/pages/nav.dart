@@ -89,7 +89,7 @@ class _NavBarState extends State<NavBar> {
                     tabs: [
                       GButton(icon: Icons.home,  text: tr.home),
                       GButton(icon: Icons.group, text: tr.rooms),
-                      GButton(icon: Icons.menu_book, text: 'Resources'), // ⬅️ NUEVO
+                      GButton(icon: Icons.menu_book, text: 'Ressources'), // LEOS -- Resources Tab
                       GButton(icon: Icons.settings, text: tr.settings),
                     ],
                     selectedIndex: _selectedIndex,

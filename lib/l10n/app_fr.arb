@@ -182,5 +182,6 @@
   "deleteMail": "Supprimer le courriel",
   "confirmDeleteMail": "Êtes-vous sûr de vouloir supprimer ce courriel ?",
   "subscribeToUnlock1": "Abonnez-vous pour débloquer et obtenir du contenu exclusif !"
-
+  "resources": "Ressources",
+  
 }
