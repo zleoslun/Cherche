@@ -9,6 +9,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
+import 'package:dailydevotion/admin/navbar/resources.dart';
 
 import '../../providers/user_provider.dart';
 
@@ -51,6 +52,7 @@ class _AdminNavBarState extends State<AdminNavBar> {
       Mails(tr: tr),
       RoomsForAdmin(user: user, tr: tr),
       UserSettingsPage(user: user, tr: tr),
+      const ResourcesScreen(),
     ];
 
     return Scaffold(
@@ -94,6 +96,7 @@ class _AdminNavBarState extends State<AdminNavBar> {
                       GButton(icon: Icons.mail, text: tr.mails),
                       GButton(icon: Icons.group, text: tr.rooms),
                       GButton(icon: Icons.settings, text: tr.settings),
+                      GButton(icon: Icons.menu_book, text: 'Resources'),
                     ],
                     selectedIndex: _selectedIndex,
                     onTabChange: (index) {
